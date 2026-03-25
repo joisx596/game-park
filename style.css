@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    line-height: 1,2;
+    color: #333;
+}
+/*header*/
+header{
+    background: #0a3d2e;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+.container{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+nav ul li a:hover{
+    color: #030303;
+}
+/*hero*/
+.hero{
+    height: 90vh;
+    background:url('img/murchison.jpg')center/cover no-repeat ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-size-adjust: unset;
+}
+.hero-text{
+    background-blend-mode: hue;
+}
